@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    line-height: 1.6;
+}
+/* COMMON SECTION STYLE*/
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(45deg, #0077ff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.logo a:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/*NAVBAR*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+/* HEREO SECTION*/
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    color: white;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* GRID LAYOUTR*/
+.skill-grid,
+.project-grid {
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.skills-card,
+.project-card,
+.edu-card,
+.contact-box {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+/*  FOOTER*/
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media(max-width: 768px) {
+    
+}
